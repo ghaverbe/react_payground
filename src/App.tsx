@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Foo } from "./components/ui/Foo";
+import { Button } from "@mui/material";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <Button variant="contained">MU</Button>
       <Foo />
     </>
   );
